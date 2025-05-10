@@ -1,0 +1,21 @@
+{
+  "name": "discordmusicbot",
+  "version": "1.0.0",
+  "description": "24/7 Discord radio bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "discord-player": "^7.1.0",
+    "discord-player-youtubei": "^1.4.6",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.2.0",
+    "node-cron": "^3.0.3"
+  }
+}
